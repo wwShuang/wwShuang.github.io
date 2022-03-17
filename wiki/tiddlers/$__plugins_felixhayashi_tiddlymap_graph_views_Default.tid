@@ -1,9 +1,0 @@
-config.neighbourhood_scope: 1
-config.physics_mode: false
-created: 20220315072447147
-creator: TidGiUser
-isview: true
-modified: 20220315072450679
-modifier: TidGiUser
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/Default
-type: text/vnd.tiddlywiki

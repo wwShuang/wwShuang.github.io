@@ -1,8 +1,0 @@
-created: 20220316132308467
-creator: Shuang
-modified: 20220317030433130
-modifier: Shuang
-title: $:/themes/tiddlywiki/vanilla/metrics/storyleft
-type: text/vnd.tiddlywiki
-
-calc({{$:/xp/LeftOpenTab/metrics/width}} + {{$:/xp/LeftOpenTab/metrics/storyleft}} - {{$:/xp/LeftOpenTab/metrics/storyriverpaddingleft}})
