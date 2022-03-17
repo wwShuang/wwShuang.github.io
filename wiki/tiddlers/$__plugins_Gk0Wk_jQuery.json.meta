@@ -1,0 +1,10 @@
+author: Gk0Wk
+dependents: 
+description: jQuery for TiddlyWiki5
+list: readme
+name: jQuery
+plugin-type: plugin
+source: https://github.com/tiddly-gittly/tw-echarts/tree/master/plugins/Gk0Wk/jQuery
+title: $:/plugins/Gk0Wk/jQuery
+type: application/json
+version: 3.6.0

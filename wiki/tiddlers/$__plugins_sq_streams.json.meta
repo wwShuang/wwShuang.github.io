@@ -1,0 +1,14 @@
+author: Saq Imtiaz
+core-version: >=5.1.23
+created: 20210502055536223
+dependents: 
+description: Streams - a different way to write
+list: Settings
+modified: 20210502173153901
+plugin-priority: 1
+plugin-type: plugin
+source: https://saqimtiaz.github.io/streams/
+tags: rr-TW5 rr-plugins
+title: $:/plugins/sq/streams
+type: application/json
+version: 0.2.12

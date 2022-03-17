@@ -1,0 +1,21 @@
+caption: {{$:/plugins/kookma/thinkup/images/tasks}} Todos
+color: #c80000
+created: 20200303060547766
+icon: $:/plugins/kookma/thinkup/images/tasks
+modified: 20211119155113768
+tags: $:/tags/Thinkup
+title: Task
+tmap.id: ac26be68-cbc8-40e0-b930-438bd94d7511
+type: text/vnd.tiddlywiki
+
+\define todolist-statePath() $(td-basePath)$/state/
+
+<small>See also [[Tasks Explorer]]</small>
+
+<$list filter="[all[shadows+tiddlers]removeprefix<todolist-statePath>!tag[Journal]sort[]]" variable="baseName">
+
+<$macrocall $name="todolist-ui" caption="""<$link to=<<baseName>>/>""" base=<<baseName>> />
+
+</$list>
+
+<small>To manage the internal todolist tiddlers, see [[Explore Todolist internal tiddlers|$:/plugins/kookma/todolist/settings/internals]].</small>

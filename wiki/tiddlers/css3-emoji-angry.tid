@@ -1,0 +1,14 @@
+title: css3-emoji-angry
+tmap.id: 49f5c692-faf6-4f52-a59f-22177f0ae219
+type: text/vnd.tiddlywiki
+
+<div class="emoji angry">
+    <figure class="face">
+        <span class="eyes">
+            <span class="eye"></span>
+            <span class="eye"></span>
+        </span>
+        <span class="mouth">
+        </span>
+    </figure>
+</div>

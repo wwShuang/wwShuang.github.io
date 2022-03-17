@@ -1,0 +1,9 @@
+created: 20220316151509595
+creator: Shuang
+history: [{"due":"20220318151509594","interval":0,"difficulty":5,"stability":2,"retrievability":1,"grade":-1,"lapses":0,"reps":1,"review":"20220316151509594"},{"due":"20220318151555826","interval":0,"difficulty":5.2,"stability":2,"retrievability":1,"grade":1,"lapses":0,"reps":2,"review":"20220316151555826"}]
+modified: 20220317023443568
+modifier: Shuang
+tags: !
+title: &
+tmap.id: 0a71b9fa-a605-4c13-b5d1-fce67e462bd3
+type: text/vnd.tiddlywiki

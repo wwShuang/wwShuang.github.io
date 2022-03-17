@@ -1,0 +1,12 @@
+caption: {{$:/plugins/kookma/thinkup/images/lightbulb}} Ideas
+color: #0ac711
+created: 20210425110232734
+icon: $:/plugins/kookma/thinkup/images/lightbulb
+list: [[New Idea 1]] [[New Idea 4]] [[New Idea 6]] TEST [[New Idea 5]] [[New Idea 2]] [[New Idea]] [[New Idea 7]] [[New Idea 3]]
+modified: 20211217192453678
+tags: $:/tags/Thinkup
+title: Idea
+tmap.id: 12fad24e-ba8e-43fd-a231-ec9f44222806
+type: text/vnd.tiddlywiki
+
+{{||$:/plugins/kookma/thinkup/templates/new-from-sidebar}}

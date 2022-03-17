@@ -1,0 +1,43 @@
+caption: A navigation button
+title: quickbar-new-navigation-button
+tmap.id: 85909304-517c-45e2-9058-46a4ece1b6ad
+type: text/vnd.tiddlywiki
+
+\define et-quickbar-navigation(size)
+|<$link to="$:/config/new-navigation-button/Title">Title</$link> |<$edit-text tiddler="$:/config/new-navigation-button/Title" default="" tag="input" size=$size$/> |
+|<$link to="$:/config/new-navigation-button/Caption">Caption</$link> |<$edit-text tiddler="$:/config/new-navigation-button/Caption" default="" tag="input" size=$size$/> |
+|<$link to="$:/config/new-navigation-button/Caption">Description</$link> |<$edit-text tiddler="$:/config/new-navigation-button/Description" default="" tag="input" size=$size$/> |
+|<$link to="$:/config/new-navigation-button/Text">Text</$link> |<$edit tiddler="$:/config/new-navigation-button/Text" tag="textarea" class="tc-edit-texteditor" default=""/> |
+|>| {{$:/xp/quickbar/create/Buttons/new-navigation-button}} |
+\end
+
+\define et-quickbar-conversion(size)
+|<$link to="$:/config/convert-navigation-button/From">From</$link> |<$edit-text tiddler="$:/config/convert-navigation-button/From" default="" tag="input" size="$size$"/> |
+|<$link to="$:/config/convert-navigation-button/To">To</$link> |<$edit-text tiddler="$:/config/convert-navigation-button/To" default="" tag="input" size="$size$"/> |
+|>| {{$:/xp/quickbar/create/Buttons/convert-navigation-button}} |
+\end
+
+<span class="xp-quickbar-on-pc">
+
+<<et-quickbar-navigation size:"50">>
+
+</span>
+<span class="xp-quickbar-on-phone">
+
+<<et-quickbar-navigation>>
+
+</span>
+
+
+Fast conversion:
+
+<span class="xp-quickbar-on-pc">
+
+<<et-quickbar-conversion size:"50">>
+
+</span>
+<span class="xp-quickbar-on-phone">
+
+<<et-quickbar-conversion>>
+
+</span>

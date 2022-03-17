@@ -1,0 +1,14 @@
+title: css3-emoji-grin
+tmap.id: c3b71a2a-ec71-407a-bcb8-6643dbea1584
+type: text/vnd.tiddlywiki
+
+<div class="emoji grin">
+    <figure class="face">
+        <span class="eyes">
+            <span class="eye"></span>
+            <span class="eye"></span>
+        </span>
+        <span class="mouth teath tounge">
+        </span>
+    </figure>
+</div>

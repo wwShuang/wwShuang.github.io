@@ -1,0 +1,18 @@
+title: css3-emoji-love
+tmap.id: 3ca6b0d4-3451-4284-a33c-fedf10c1c85f
+type: text/vnd.tiddlywiki
+
+<div class="emoji love">
+    <figure class="face">
+        <span class="eyes">
+            <span class="heart-eye">
+                <span class="heart"></span>
+            </span>
+            <span class="heart-eye">
+                <span class="heart"></span>
+            </span>
+        </span>
+        <span class="mouth tounge">
+        </span>
+    </figure>
+</div>

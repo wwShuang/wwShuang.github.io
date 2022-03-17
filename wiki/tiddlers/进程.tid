@@ -1,0 +1,39 @@
+created: 20220315172626473
+creator: Shuang
+difficulty: 5.748683298050515
+due: 20220321023500460
+grade: 1
+history: [{"due":"20220318151520973","interval":0,"difficulty":5,"stability":2,"retrievability":1,"grade":-1,"lapses":0,"reps":1,"review":"20220316151520973"},{"due":"20220318151611526","interval":0,"difficulty":5.2,"stability":2,"retrievability":1,"grade":1,"lapses":0,"reps":2,"review":"20220316151611525"},{"due":"20220318151649684","interval":0,"difficulty":5.4,"stability":2,"retrievability":1,"grade":1,"lapses":0,"reps":3,"review":"20220316151649684"},{"due":"20220321023449978","interval":1,"difficulty":5.5486832980505145,"stability":3.657646649457761,"retrievability":0.9486832980505138,"grade":1,"lapses":0,"reps":4,"review":"20220317023449970"}]
+interval: 0
+lapses: 0
+modified: 20220317023500460
+modifier: Shuang
+reps: 5
+retrievability: 1
+review: 20220317023500459
+stability: 3.657646649457761
+tags: [[进程 & 线程]] ?
+title: 进程
+tmap.id: 15c64c52-fe55-4387-9d6b-9dafd325d872
+type: text/vnd.tiddlywiki
+
+- 定义
+
+<<<
+进程是程序在操作系统中的一次执行过程。是资源（包括[[内存|内存管理]]、打开的文件等）分配的单位。
+<<<
+
+
+- 用什么描述进程
+
+<<<
+ [[进程控制块]]（process control block，PCB）
+<<<
+
+
+
+- 有时候面试问为什么叫进程/ 线程？
+
+<<<
+		线程运行的本质其实就是函数的执行，函数的执行总会有一个源头，这个源头就是所谓的入口函数，CPU从入口函数开始执行从而形成一个执行流，只不过我们人为的给执行流起一个名字，这个名字就叫线程。
+<<<

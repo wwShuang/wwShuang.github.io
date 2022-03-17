@@ -1,0 +1,11 @@
+created: 20210212140005952
+dependents: 
+description: Menu Bar
+list: readme config
+modified: 20210212140011745
+name: Menu Bar
+plugin-type: plugin
+tags: rr-TW5 rr-plugins
+title: $:/plugins/tiddlywiki/menubar
+type: application/json
+version: 5.1.23

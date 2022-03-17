@@ -1,0 +1,23 @@
+created: 20220317030444268
+creator: Shuang
+modified: 20220317030445862
+modifier: Shuang
+tags: 
+title: $:/xp/theme-changer/greenBoxes.css
+type: text/vnd.tiddlywiki
+
+html body.tc-body .blue-box,
+html body.tc-body .gray-box,
+html body.tc-body .green-box,
+html body.tc-body .pink-box,
+html body.tc-body .purple-box,
+html body.tc-body .red-box,
+html body.tc-body .yellow-box {
+	background-color: <<colour pre-background>>;
+	color: #3b302e;
+}
+
+html body.tc-body .red-box {
+	color: #993333;
+	border: 1px solid #CC3333;
+}

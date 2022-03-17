@@ -1,0 +1,14 @@
+title: css3-emoji-sad
+tmap.id: 7248532b-461b-4624-a1d4-569241f4963b
+type: text/vnd.tiddlywiki
+
+<div class="emoji sad">
+    <figure class="face">
+        <span class="eyes">
+            <span class="eye"></span>
+            <span class="eye"></span>
+        </span>
+        <span class="mouth tounge">
+        </span>
+    </figure>
+</div>

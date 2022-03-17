@@ -1,0 +1,13 @@
+caption: Activity and Sports
+tags: [[The Font Emoji Characters]]
+title: The Font Emoji Characters/activity
+tmap.id: 3145b8ce-a298-4f95-b2b1-e665d77f0ff1
+type: text/vnd.tiddlywiki
+
+<div class="tc-emoji-chooser">
+<$macrocall
+	$name="emoji-picker-list"
+	filter="⚽️ 🏀 🏈 ⚾️ 🎾 🏐 🏉 🎱 ⛳️ 🏌 🏓 🏸 🏒 🏑 🏏 🎿 ⛷ 🏂 ⛸ 🏹 🎣 🚣 🏊 🏄 🛀 ⛹ 🏋 🚴 🚵 🏇 🕴 🏆 🎽 🏅 🎖 🎗 🏵 🎫 🎟 🎭 🎨 🎪 🎤 🎧 🎼 🎹 🎷 🎺 🎸 🎻 🎬 🎮 👾 🎯 🎲 🎰 🎳"
+	actions=<<copyEmojiActions>>
+	/>
+</div>

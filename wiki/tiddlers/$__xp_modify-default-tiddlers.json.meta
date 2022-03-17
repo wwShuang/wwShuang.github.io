@@ -1,0 +1,10 @@
+author: kl
+created: 20210409015904280
+dependents: 
+description: Changes to the TiddlyWiki default tiddlers
+modified: 20220310122637943
+name: Modify Default Tiddlers
+plugin-type: plugin
+title: $:/xp/modify-default-tiddlers
+type: application/json
+version: 5.2.1.2

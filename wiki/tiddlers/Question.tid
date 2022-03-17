@@ -1,0 +1,12 @@
+caption: {{$:/plugins/kookma/thinkup/images/question}} Questions
+color: #af002a
+created: 20210507085035852
+icon: $:/plugins/kookma/thinkup/images/question
+list: [[New Question]] [[New Question 1]] [[New Question 2]] TEST [[New Question 3]] [[New Question 4]] [[New Question 5]] [[New Question 6]]
+modified: 20211217192516789
+tags: $:/tags/Thinkup
+title: Question
+tmap.id: 956fc0f6-87d0-40d0-9161-c7f3f2e9c3d8
+type: text/vnd.tiddlywiki
+
+{{||$:/plugins/kookma/thinkup/templates/new-from-sidebar}}

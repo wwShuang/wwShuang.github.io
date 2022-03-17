@@ -1,0 +1,51 @@
+caption: A page control tool
+title: quickbar-new-pagecontrol-tool
+tmap.id: 6eeab0c9-2a5f-4755-8a07-fb8a0690c166
+type: text/vnd.tiddlywiki
+
+\define et-quickbar-pagecontrol(size)
+|<$link to="$:/config/new-pagecontrol-tool/Title">Title</$link> |<$edit-text tiddler="$:/config/new-pagecontrol-tool/Title" default="" tag="input" size="$size$"/> |
+|<$link to="$:/config/new-pagecontrol-tool/Caption">Caption</$link> |<$edit-text tiddler="$:/config/new-pagecontrol-tool/Caption" default="" tag="input" size="$size$"/> |
+|<$link to="$:/config/new-pagecontrol-tool/Caption">Description</$link> |<$edit-text tiddler="$:/config/new-pagecontrol-tool/Description" default="" tag="input" size="$size$"/> |
+|<$link to="$:/config/new-pagecontrol-tool/Text">Text</$link> |<$edit tiddler="$:/config/new-pagecontrol-tool/Text" tag="textarea" class="tc-edit-texteditor" default=""/> |
+|>| {{$:/xp/quickbar/create/Buttons/new-pagecontrol-tool}} |
+\end
+
+\define et-quickbar-conversion(size)
+|<$link to="$:/config/convert-pagecontrol-tool/From">From</$link> |<<select-pagecontrols>> |
+|<$link to="$:/config/convert-pagecontrol-tool/To">To</$link> |<$edit-text tiddler="$:/config/convert-pagecontrol-tool/To" default="" tag="input" size="$size$"/> |
+|>| {{$:/xp/quickbar/create/Buttons/convert-pagecontrol-tool}} |
+\end
+
+\define select-pagecontrols()
+<$select tiddler="$:/config/convert-pagecontrol-tool/From" default='$:/core/ui/Buttons/home'>
+<$list filter='[all[shadows+tiddlers]tag[$:/tags/PageControls]sort[title]]'>
+<option value=<<currentTiddler>>><$view field='title'/></option>
+</$list>
+</$select>
+\end
+
+<span class="xp-quickbar-on-pc">
+
+<<et-quickbar-pagecontrol size:"50">>
+
+</span>
+<span class="xp-quickbar-on-phone">
+
+<<et-quickbar-pagecontrol>>
+
+</span>
+
+
+Fast conversion:
+
+<span class="xp-quickbar-on-pc">
+
+<<et-quickbar-conversion size:"50">>
+
+</span>
+<span class="xp-quickbar-on-phone">
+
+<<et-quickbar-conversion>>
+
+</span>

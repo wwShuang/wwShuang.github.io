@@ -1,0 +1,15 @@
+author: TonGerner
+core-version: >=5.1.17
+created: 20181104160047093
+creator: TonGerner
+dependents: 
+description: 2nd level bulleted list button
+list: readme
+modified: 20191230201500576
+modifier: TonGerner
+name: 2nd level bulleted list button
+plugin-type: plugin
+source: http://tongerner.tiddlyspot.com/
+title: $:/plugins/tg/list-bullet2-button
+type: application/json
+version: 0.0.7
