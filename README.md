@@ -1,1 +1,1 @@
-personal website: mainly use tidllywiki
+personal website: mainly use Logseq
