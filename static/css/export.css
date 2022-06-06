@@ -1,0 +1,68 @@
+html {
+  font-size: 15px;
+}
+
+/* == query block 检索块(参考版本) == */
+.custom-query {
+  background-color: var(--ls-secondary-background-color);
+  padding: .0rem .75rem .5rem .75rem;
+  margin: 0;
+  width: 100%;
+ }
+.custom-query .opacity-70::before {
+  content: "Query: ";
+  color: var(--ls-page-inline-code-color);
+  font-size: 85%;
+  font-family: Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace;
+  display: inline;
+ }
+.custom-query .opacity-70 {opacity: 1;}
+
+/* == query block 检索块(自用版本) == */
+.custom-query {
+  background-color: var(--ls-secondary-background-color);
+  padding: .0rem .75rem .3rem .75rem;
+  margin: 0;
+  width: 100%;
+ }
+.custom-query .opacity-70::before {
+  content: "Query: ";
+  color: #FF79C6;
+  display: inline;
+ }
+
+
+
+/* columns view css mod by cannibalox v0.3  20220506 */
+/* SETTINGS: adjust width of cards below*/
+
+	:root {
+		--mod-cards-width: 252px;
+		}  
+
+/* ============================= */
+/* ==== columns view layout ==== */
+/* ====================-======== */
+
+[data-page-tags*=".p-cards"] .block-children.w-full {
+        flex-wrap: wrap;
+        flex-direction: row;
+    } 
+[data-page-tags*=".p-cards"] .ls-block[level="2"] {
+		display:inline-block;
+		width: var(--mod-cards-width); 
+		vertical-align: top;
+        box-shadow: 2px 2px 3px #0000003b;
+		border: 1px solid black;
+		border-radius: 6px;
+		background-color: var(--ls-tertiary-background-color);
+        padding: 10px 0px 0px 0px;
+	}
+[data-page-tags*=".p-cards"] .embed-block .ls-block {
+		display: inline;
+	}
+
+[data-page-tags*=".p-cards"] .block-children .ls-block {
+		border: 0px solid var(--ls-secondary-text-color);
+		margin: 4px;
+	}
